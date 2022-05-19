@@ -20,8 +20,9 @@ number = int(input("Enter a number: "))
 smallest = number
 
 number = int(input("Enter another number: "))
+ham =  int(input("Enter another number: "))
 
-if number < smallest:
+if number < smallest < ham:
   smallest = number
   
 print("The smallest number is ", smallest)
